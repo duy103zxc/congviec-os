@@ -4,6 +4,7 @@ idk, just wanna move my workflows here.
 
 ## Apps
 - [Pomodoro](./pomodoro/index.html)
+- [Text2HTML](./clipboard2html/index.html) - Convert from clipboard to HTML
 
 ## Credit
 - [Pomodoro](https://github.com/lucasdemoraesc/timer-pomodoro)
