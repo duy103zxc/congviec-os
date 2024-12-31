@@ -1,0 +1,236 @@
+@font-face {
+    font-family: 'neon';
+    src: url('./font/hellodenverdisplayregular_v1.6.eot');
+    src: url('./font/hellodenverdisplayregular_v1.6.eot?#iefix') format('embedded-opentype'),
+         url('./font/hellodenverdisplayregular_v1.6.woff') format('woff'),
+         url('./font/hellodenverdisplayregular_v1.6.ttf') format('truetype'),
+         url('./font/hellodenverdisplayregular_v1.6.svg#HELLODENVERDISPLAYREGULARRg') format('svg');
+}
+
+body {
+    margin-top: 0px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    text-transform: uppercase;
+    font-family: neon;
+    color: #fff;
+    background-color: #010a01;
+    text-align: center;
+}
+
+.dash {
+    color: #fff;
+
+}
+
+.grid {
+    background-color: #fff;
+    border: 3px double #010a01;
+    min-height: 500px;
+    min-width: 500px;
+    max-height: 500px;
+    max-width: 500px;
+    height: 500px;
+    width: 500px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+
+    margin-bottom: 50px;
+}
+
+.control-panel {
+
+    font-size: 1.4rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 400;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    align-content: center;
+    flex-direction: column;
+    border-radius: 25px;
+    border: 5px double #FF53cd;
+    padding: 20px;
+    width: 200px;
+    height: 450px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 1.5rem;
+}
+
+h2 {
+    margin: 16px;
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.color{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    margin: 16px;
+}
+
+.footer,
+.slider label,
+.grid-line label,
+.color label{
+
+}
+
+.grid-line{
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+.color label{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+#color-picker{
+    border: none;
+    background-color: transparent;
+    padding: 0px;
+}
+
+input:focus-visible {
+    outline-offset: 0px;
+    outline: none;
+}
+
+.rainbow {
+
+
+    border: 2px solid #00fe9b;
+
+}
+
+.eraser {
+
+
+    border: 2px solid #ffdb4e;
+}
+
+.clear {
+
+
+    border: 2px solid #FF5161;
+}
+
+@font-face {
+    font-family: 'neon';
+    src: url('./font/hellodenverdisplayregular_v1.6.eot');
+    src: url('./font/hellodenverdisplayregular_v1.6.eot?#iefix') format('embedded-opentype'),
+         url('./font/hellodenverdisplayregular_v1.6.woff') format('woff'),
+         url('./font/hellodenverdisplayregular_v1.6.ttf') format('truetype'),
+         url('./font/hellodenverdisplayregular_v1.6.svg#HELLODENVERDISPLAYREGULARRg') format('svg');
+}
+
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    margin-left: 16px;
+    margin-right: 16px;
+    font-size: 4.2rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+
+h1 .etch{
+    color: #fff;
+}
+
+h1 .a{
+    color: #fff;
+}
+
+h1 .sketch{
+    color: #fff;
+}
+
+button{
+    font-family: neon;
+    color: white;
+    opacity: 0.6;
+    transition: 0.3s;
+    cursor: pointer;
+    background-color: transparent;
+    padding: 10px 20px;
+    margin: 5px;
+    transition-duration: 0.4s;
+    font-size: 1.8rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+button:hover {opacity: 1}
+
+footer{
+    padding: 0 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem 0;
+}
+
+footer [src="./img/github.svg"]{
+    width: 2rem;
+    height: auto;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+footer a {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+footer a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+footer a:focus [src="./img/github.svg"],
+footer a:hover [src="./img/github.svg"] {
+    filter: invert(1);
+}
+
+footer a:focus {
+    color: #3E75C3;
+}
+
+footer a {
+    font-size: 1rem;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(255, 255, 255);
+}

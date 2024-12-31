@@ -52,7 +52,7 @@ function start() {
 
 function pause() {
 	isRunning = false;
-	controlButton.innerText = 'Start';
+	controlButton.innerText = 'Continue';
 	clearInterval(timer);
 }
 
@@ -80,7 +80,6 @@ function finishTurn() {
 	runAnimation('swing');
 	nextTurn();
 	drawTurn();
-
 }
 
 function runAnimation(animation) {
@@ -99,10 +98,10 @@ function nextTurn() {
 	if (currentTurn <= totalTurns) {
 		if (isBreakTime) {
 			totalTime = currentTurn < totalTurns ? breakTime : longBreakTime;
-			showNotification("Hora de descansar", "Parabéns pelo trabalho, aproveite os próximos minutos para descansar");
+			showNotification("Time to rest", "It's time to take a short break now!");
 		} else {
 			totalTime = workTime;
-			showNotification("Voltar ao trabalho", "Você está quase lá, só mais alguns minutos de trabalho");
+			showNotification("Back to work", "You're almost there, just a few more minutes of work");
 		}
 		timeRemaining = totalTime;
 	} else {
